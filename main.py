@@ -10,7 +10,7 @@ app.config['SECRET_KEY'] = os.getenv("FLASK_KEY")
 
 @app.route("/")
 def hello_world():
-    return f"<h1> I am the {random_name('superhero')}!</h1>"
+    return f"<h1> I am the only one {random_name('superhero')}!</h1>"
 
 
 if __name__ == "__main__":
